@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chelsea Tomlinson — Maker &amp; designer</title>
+  <meta name="description" content="Portfolio of Chelsea Tomlinson — small, useful things for the web. Apps, tools, and experiments." />
+  <link rel="canonical" href="https://littletomato.dev/" />
+  <meta name="theme-color" content="#FBFAF7" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/tomato.svg" />
+
+  <!-- Open Graph / social share card -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://littletomato.dev/" />
+  <meta property="og:title" content="Chelsea Tomlinson — Maker &amp; designer" />
+  <meta property="og:description" content="Small, useful things for the web." />
+  <meta property="og:image" content="https://littletomato.dev/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chelsea Tomlinson — Maker &amp; designer" />
+  <meta name="twitter:description" content="Small, useful things for the web." />
+  <meta name="twitter:image" content="https://littletomato.dev/assets/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to work</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="/">
+        <img src="/assets/tomato.svg" alt="" width="24" height="24" aria-hidden="true" />
+        <span>littletomato</span>
+      </a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">Chelsea Tomlinson</p>
+      <h1>I build small, useful things for the web.</h1>
+      <p class="lede">Designer-turned-maker shipping focused apps and tools. Here's what I've been working on lately.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#work">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <h2 class="section-title">Work</h2>
+      <div class="cards">
+
+        <article class="card">
+          <div class="card-meta">PWA · 2026</div>
+          <h3 class="card-title">Olive Training Log</h3>
+          <p class="card-desc">An offline-first progressive web app for logging dog-training sessions and tracking progress over time. My first PWA.</p>
+          <div class="card-tags">
+            <span class="tag">PWA</span>
+            <span class="tag">Offline-first</span>
+          </div>
+          <a class="card-link" href="#" aria-label="View Olive Training Log (link coming soon)">
+            View project <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card card-soon">
+          <div class="card-meta">In progress</div>
+          <h3 class="card-title">Next project</h3>
+          <p class="card-desc">Something new is in the works. This card is a placeholder — I'll swap in the details once it ships.</p>
+          <div class="card-tags">
+            <span class="tag">Coming soon</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2 class="section-title">About</h2>
+      <div class="about">
+        <p>I'm Chelsea — I like turning everyday problems into simple, well-made tools. I care about clarity, craft, and shipping things people actually use.</p>
+        <p>Most of my projects start as something I needed myself. If a tool is small, fast, and gets out of your way, I've done my job.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-lede">Want to work together or just say hi?</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:tomlinson.chelsea@gmail.com">Email me</a>
+        <a class="btn" href="https://github.com/" rel="me">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <span class="footer-brand">
+      <img src="/assets/tomato.svg" alt="" width="18" height="18" aria-hidden="true" />
+      littletomato.dev
+    </span>
+    <span class="footer-copy">© <span id="year">2026</span> Chelsea Tomlinson</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

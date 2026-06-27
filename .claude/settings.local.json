@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Read(//Users/chelseatomlinson/Library/CloudStorage/SynologyDrive-Chelsea/Cowork Projects/**)",
+      "Bash(git config *)",
+      "Read(//Users/chelseatomlinson/.config/**)",
+      "Read(//Users/chelseatomlinson/.config/github-copilot/**)",
+      "mcp__visualize__read_me"
+    ]
+  }
+}
